@@ -1,0 +1,11 @@
+.item-container {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.component-wrapper {
+  text-align: center;
+  padding-bottom: 30px;
+}

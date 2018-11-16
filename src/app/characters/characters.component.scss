@@ -1,0 +1,22 @@
+.character-card {
+  width: 250px;
+  margin: 15px 10px;
+}
+
+.character {
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    font-size: 13px;
+  }
+}
+
+.load-more {
+  width: 100%;
+}
+
+::ng-deep .mat-card-header-text {
+  margin: 0 !important;
+}

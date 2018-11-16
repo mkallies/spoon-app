@@ -1,0 +1,43 @@
+<mat-card class="character-card">
+  <mat-card-header class='character__header'>
+    <mat-card-title>{{character.name}}</mat-card-title>
+  </mat-card-header>
+  <img mat-card-image src={{character.image}} alt="Photo of {{character.name}}">
+  <mat-card-content>
+    <div class='character__info'>
+      <span>
+        Status
+      </span>
+      <p>
+        {{character.status}}
+      </p>
+    </div>
+
+    <div class='character__info'>
+      <span>
+        Species
+      </span>
+      <p>
+        {{character.species}}
+      </p>
+    </div>
+
+    <div class='character__info'>
+      <span>
+        Gender
+      </span>
+      <p>
+        {{character.gender}}
+      </p>
+    </div>
+
+    <div class='character__info'>
+      <span>
+        Origin
+      </span>
+      <p>
+        {{character.origin.name}}
+      </p>
+    </div>
+  </mat-card-content>
+</mat-card>
